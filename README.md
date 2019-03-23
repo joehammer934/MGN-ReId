@@ -24,9 +24,11 @@ _post.py` and `export_tf_serving_with_pre_post.py` pack these operations into th
 
 ## result
 Results without re-ranking on Market-1501
+
 | map | rank@1 | rank@3 | rank@5 | rank@10 |
 | --- | --- | --- | --- | --- |
 | 0.874288 | 0.947150 | 0.975653 | 0.984857 | 0.990499 |
-### Reference
+
+## Reference
 [https://github.com/seathiefwang/MGN-pytorch](https://github.com/seathiefwang/MGN-pytorch)
 [https://github.com/lwplw/reid-mgn](https://github.com/lwplw/reid-mgn)
