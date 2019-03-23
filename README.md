@@ -5,7 +5,7 @@ Reproduction of paper：[Learning Discriminative Features with Multiple Granular
 ## The architecture of MGN
 ![The architecture of MGN](./doc/archiecture.png)
 ## Composition
-MGN based Tensorflow:
+MGN based on Tensorflow:
  - export_pb.py ： export tensorflow pb file；
  - export_pb_with_pre
 _post.py ： export tensorflow pb file containing preprocess and postprocess；
