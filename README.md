@@ -3,7 +3,7 @@
 Reproduction of paper：[Learning Discriminative Features with Multiple Granularitiesfor Person Re-Identification](https://arxiv.org/pdf/1804.01438.pdf)
 
 ## The architecture of MGN
-![The architecture of MGN](./doc/archiecture.png)
+![The architecture of MGN](doc/archiecture.png)
 ## Composition
 MGN based on Tensorflow:
  - export_pb.py ： export tensorflow pb file；
@@ -18,7 +18,7 @@ _post.py ： export tensorflow pb file containing preprocess and postprocess；
  - Set training parameters and training paths in ```train.py``` and start training;
 
 ## Inference
-![The architecture of MGN](./doc/preprocess_and_postprocess.png)
+![The architecture of MGN](doc/preprocess_and_postprocess.png)
 `export_pb_with_pre
 _post.py` and `export_tf_serving_with_pre_post.py` pack these operations into the model.
 
